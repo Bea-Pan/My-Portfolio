@@ -9,6 +9,7 @@ body{
     margin:0;
 }
 
+/*HEADER*/
 header{
     background-color: mediumseagreen;
     width: 100%;
@@ -38,14 +39,19 @@ nav {
 nav li {
     display: inline-block;
     padding: 0.625rem;
-    margin-right: 1.25rem;
-    
+    margin-right: 1.25rem;  
 }
 
 .nav {
     color: #fffae6;
     font-weight: 600;
     font-size: 1.5rem;
+    
+}
+
+.nav:hover{
+    font-size: 1.7rem;
+    
 }
 .nav:link {
     text-decoration: none;
@@ -54,7 +60,7 @@ nav li {
 ul {
     list-style-type: none;
 }
-
+/* CONTENT */
 .after-header{
     margin-top: 6.25rem;
 }
@@ -111,9 +117,7 @@ ul {
     opacity: 30%;
 }
 
-
 .button img:hover{
-  
    opacity: 100%;
 }
 
@@ -147,11 +151,21 @@ details[open] summary{
 .project-pics{
     width: 100%;
     height: 180px;
-    /* filter: drop-shadow(1px 1px black); */
     border: 2px solid transparent;
     border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
     border-image-slice: 1;
 }
+/*Skills.html*/
+.skills {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.skills .logo {
+    margin-left:1rem;
+}
+
+/*FOOTER*/
 
 footer {
     margin-top: 60px;
@@ -160,7 +174,8 @@ footer {
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
-    height: 70px;
+    height: 4.375rem;
+    min-height: 100%;
 }
 
 footer img {
@@ -171,7 +186,7 @@ footer img {
 
 .logo {
     height: 50px;
-    width: 50px;
+    width: auto;
     
 }
 
@@ -183,6 +198,8 @@ footer p {
     display:flex;
 }
 
+
+/*MEDIA QUERIES*/
 /* MOBILE */
 @media only screen and (max-width:700px){
     header {
@@ -196,9 +213,7 @@ footer p {
         font-size: 1rem;
     }
 
-    nav ul {
-        /* display: flex; */
-    }
+    
 
     nav li {
         margin-right: 0.5rem;
