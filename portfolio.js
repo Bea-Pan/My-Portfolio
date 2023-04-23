@@ -1,3 +1,15 @@
+let view = document.getElementById('html-logo');
+let htmlText = document.getElementById('html')
+let htmlButton = view
+
+let open = function(){
+ htmlText.style.display ='flex'
+ htmlButton.style.opacity = '100%'
+}
+
+view.addEventListener('click', open);
+
+/** FOOTER */
 //Changing the GITHUB icon onmouseover
 let gitHubLogo = document.getElementById('github-logo');
 

@@ -78,7 +78,7 @@ ul {
     linear-gradient(320deg, #ffa366 30%,  #ff3377, mediumseagreen 75%);
     width: 100%;
     transform: rotate(2deg) skew(2deg);
-    margin-top: 4rem;
+    margin-top: 3rem;
     position: static;
     padding-bottom: 3rem;
     padding-top: 3rem;
@@ -134,6 +134,10 @@ details span{
     color: orangered;
 }
 
+.skills-descriptions span {
+    color: orangered;
+}
+
 
 details[open] summary{
     border-bottom: 1px solid transparent;
@@ -155,27 +159,20 @@ details[open] summary{
     border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
     border-image-slice: 1;
 }
-/*Skills.html*/
-.skills {
-    text-align: center;
-    margin-top: 3rem;
-}
-
-.skills .logo {
-    margin-left:1rem;
-}
 
 /*FOOTER*/
 
 footer {
     margin-top: 60px;
     background-color: #ffa366;
-    width: 100%;
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
-    height: 4.375rem;
-    min-height: 100%;
+    width: 100%;
+    /* position: absolute;
+    bottom: 0; */
+    max-height: 4.375rem;
+    
 }
 
 footer img {
@@ -198,6 +195,69 @@ footer p {
     display:flex;
 }
 
+/*Skills.html*/
+
+.page-container {
+    position: relative;
+    min-height: 15.7rem;
+}
+
+.invisible-container{
+    height: 25rem;
+}
+
+.before-footer{
+   padding-bottom: 4.375rem;
+}
+
+.skills {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.logo-skills {
+    width: 150px;
+    height: auto;
+    opacity: 30%;
+}
+
+.skills .logo {
+    margin-left:1rem;
+}
+
+.skills-descriptions .box {
+    width: 80%;
+    text-align: center;
+    padding: 1rem;
+}
+
+.skills-descriptions li {
+    margin-right: 2rem;
+}
+
+#html {
+    display:none;
+}
+
+#css {
+    display:none;
+}
+
+#JavaScript {
+    display:none;
+}
+
+#python {
+    display:none;
+}
+
+#git {
+    display:none;
+}
+
+#node {
+    display:none;
+}
 
 /*MEDIA QUERIES*/
 /* MOBILE */
@@ -212,8 +272,6 @@ footer p {
         margin-left: -1.875rem;
         font-size: 1rem;
     }
-
-    
 
     nav li {
         margin-right: 0.5rem;
