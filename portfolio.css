@@ -16,7 +16,7 @@ header{
     top: 0;
     left: 0;
     z-index: 1;
-    height: 70px;
+    height: 4.375rem;
     display: flex;
     margin-bottom: 60px;
 }
@@ -37,8 +37,8 @@ nav {
 
 nav li {
     display: inline-block;
-    padding: 10px;
-    margin-right: 20px;
+    padding: 0.625rem;
+    margin-right: 1.25rem;
     
 }
 
@@ -56,12 +56,12 @@ ul {
 }
 
 .after-header{
-    margin-top: 100px;
+    margin-top: 6.25rem;
 }
 
 .info{
     padding-top: 1rem;
-    width:80%;
+    width:90%;
     margin:auto;
     text-align: center;
     font-size: 1.3rem;
@@ -96,7 +96,7 @@ ul {
 .box {
     margin: 1.5rem;
     background-color: rgb(210, 245, 210);
-    max-width: 380px;
+    width: 23.75rem;
     filter: drop-shadow(1px 1px purple);
     border: 5px solid transparent;
     border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
@@ -106,10 +106,6 @@ ul {
 .box .logo {
     margin-right: 0.5rem;
 }
-
-/* #last-box{
-    margin-bottom: 3rem;
-} */
 
 .button img{
     opacity: 30%;
@@ -149,7 +145,7 @@ details[open] summary{
 
 
 .project-pics{
-    width: 300px;
+    width: 100%;
     height: 180px;
     /* filter: drop-shadow(1px 1px black); */
     border: 2px solid transparent;
@@ -185,4 +181,47 @@ footer p {
 
 .logos-container{
     display:flex;
+}
+
+/* MOBILE */
+@media only screen and (max-width:700px){
+    header {
+        height: 8.75rem;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    nav {
+        margin-left: -1.875rem;
+        font-size: 1rem;
+    }
+
+    nav ul {
+        /* display: flex; */
+    }
+
+    nav li {
+        margin-right: 0.5rem;
+    }
+
+    .after-header{
+        margin-top: 9.25rem;
+    }
+
+    .box {
+        margin: 0.4rem;
+    }
+
+  
+}
+
+/* TABLET */
+
+@media only screen and (max-width:1024px) and (min-width: 700px) {
+
+}
+
+/*DESKTOP*/
+@media screen and (min-width: 1024px) {
+
 }
