@@ -62,7 +62,7 @@ ul {
 }
 /* CONTENT */
 .after-header{
-    margin-top: 6.25rem;
+    margin-top: 4rem;
 }
 
 .info{
@@ -206,9 +206,6 @@ footer p {
     height: 25rem;
 }
 
-.before-footer{
-   padding-bottom: 4.375rem;
-}
 
 .skills {
     text-align: center;
@@ -226,7 +223,7 @@ footer p {
 }
 
 .skills-descriptions .box {
-    width: 80%;
+    width: 70%;
     text-align: center;
     padding: 1rem;
 }
@@ -234,6 +231,17 @@ footer p {
 .skills-descriptions li {
     margin-right: 2rem;
 }
+
+.skills-descriptions h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.skills-descriptions p {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
 
 #html {
     display:none;
@@ -285,7 +293,11 @@ footer p {
         margin: 0.4rem;
     }
 
-  
+  /*Skills.html*/
+    .skills-descriptions li {
+        margin-right:0;
+        margin-left:-2.5rem;
+    }
 }
 
 /* TABLET */
