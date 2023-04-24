@@ -124,6 +124,7 @@ gitButton.addEventListener('click', openGit)
 
 //Open Node function & event listener
 
+
 let openNode = function(){
     htmlText.style.display = 'none';
     cssText.style.display = 'none';
@@ -144,6 +145,27 @@ let openNode = function(){
 nodeButton.addEventListener('click', openNode)
 
 /** FOOTER */
+//Changing the GITHUB icon onmouseover
+
+
+//function to be called with event listener
+
+let gitHubLogo = document.getElementsByClassName('.github-logo-js');
+
+
+
+function changeLogoGitHub(){
+    gitHubLogo.forEach(function(logo) {
+        logo.src = './media/logos/GitHub-onclick.png';
+      });
+}
+
+
+gitHubLogo.onmouseover = changeLogoGitHub;
+
+/*
+
+
 //Changing the GITHUB icon onmouseover
 let gitHubLogo = document.getElementById('github-logo');
 
@@ -174,3 +196,4 @@ function changeBackLinkedIn(){
 linkedinLogo.onmouseover = changeLogoLinkedIn;
 linkedinLogo.onmouseout = changeBackLinkedIn;
 
+*/
