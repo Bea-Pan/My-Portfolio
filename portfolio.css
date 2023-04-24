@@ -46,7 +46,7 @@ nav li {
     color: #fffae6;
     font-weight: 600;
     font-size: 1.5rem;
-    
+
 }
 
 .nav:hover{
@@ -163,7 +163,7 @@ details[open] summary{
 /*FOOTER*/
 
 footer {
-    margin-top: 60px;
+    margin-top: 5rem;
     background-color: #ffa366;
     display: inline-flex;
     justify-content: space-between;
@@ -200,11 +200,11 @@ footer p {
 .page-container {
     position: relative;
     min-height: 15.7rem;
-}
+} 
 
 .invisible-container{
     height: 25rem;
-}
+} 
 
 
 .skills {
@@ -278,7 +278,16 @@ footer p {
     
     nav {
         margin-left: -1.875rem;
-        font-size: 1rem;
+        
+    }
+
+    .nav {
+        font-size: 1.2rem;
+    }
+
+    .nav:hover{
+        font-size: 1.4rem;
+        
     }
 
     nav li {
@@ -293,10 +302,16 @@ footer p {
         margin: 0.4rem;
     }
 
+
   /*Skills.html*/
     .skills-descriptions li {
         margin-right:0;
         margin-left:-2.5rem;
+    }
+
+    .logo-skills {
+        width: 50px;
+        margin-right: 0.75rem;
     }
 }
 
