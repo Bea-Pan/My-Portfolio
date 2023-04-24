@@ -210,6 +210,9 @@ footer p {
 .skills {
     text-align: center;
     margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .logo-skills {
@@ -311,7 +314,7 @@ footer p {
 
     .logo-skills {
         width: 50px;
-        margin-right: 0.75rem;
+        margin-right: 0.5rem;
     }
 }
 
