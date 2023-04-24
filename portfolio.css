@@ -171,7 +171,8 @@ footer {
     width: 100%;
     /* position: absolute;
     bottom: 0; */
-    max-height: 4.375rem;
+    max-height: 4.5rem;
+    height:4.5rem;
     
 }
 
@@ -203,7 +204,7 @@ footer p {
 } 
 
 .invisible-container{
-    height: 25rem;
+    /* height: 25rem; */
 } 
 
 
@@ -275,7 +276,9 @@ footer p {
 @media only screen and (max-width:700px){
     header {
         height: 8.75rem;
-        flex-wrap: wrap;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
         justify-content: space-around;
     }
     
