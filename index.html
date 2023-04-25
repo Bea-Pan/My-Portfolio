@@ -4,17 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <title>Portfolio Bea Pan</title>
 </head>
 <body>
     <header>
-        <h1>Beata Pankowska</h1>
+        <h1>Bea Pan</h1>
         <nav>
-            <a href="projects.html">Projects</a>
-            <a href="skills.html">Skills</a>
-            <a href="Contact">Contact</a>
+            <ul>
+                <li><a href="skills.html" class="nav">Skills</a></li>
+                <li><a href="projects.html" class="nav">Projects</a></li>
+                <li><a href="Contact" class="nav">Contact</a></li>
+            </ul>
         </nav>
     </header>
+    <section class="after-header">
+        <div class="info">
+            <h1>Welcome to my Portfolio!</h1>
+            <p>blah blah blah blaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaah bla blah blaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaah blah blah</p>
+            <h2>Experience</h2>
+            <p>September 2022 - Present</p>
+            <p> Full Stack Developer Trainee at <a href="https://itcareerswitch.co.uk/" target="_blank">IT Career Switch</a></p>
+            <p>Traineeship Components:</p>
+            <ul>
+                <li>HTML5, CSS3, JavaScript, Node.js</li>
+                <li>Command Line Git, GitHub</li>
+                <li>PHP, SQL, React, jQuery</li>
+                <li>Python</li>
+                <li>Bootstrap</li>
+                
+                
+               
+                <li>Remote API access</li>
+            </ul>
+            <h3>Qualifications</h3>
+            <p>See below my certifications obtained to date: <br>(and visit in the future for more)</p>
+        </div>
+        <!--Image Slider-->
+        <div id="slider">
+            <div id="slider-box">
+                <img src="./media/Quals/CSS-codecademy.jpg" alt="CSS Codecademy Certificate" class="slider-img">
+            </div>
+            <!--next and prev buttons-->
+            <button class="slider-bttn" onclick="prev()">Prev</button>
+            <button class="slider-bttn" onclick="next()">Next</button>
+        </div>
+        </div>
+    </section>
+    <script src="./slider.js"></script>
     
 </body>
 </html>
