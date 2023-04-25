@@ -195,6 +195,32 @@ footer p {
 .logos-container{
     display:flex;
 }
+/*index.html*/
+
+#slider {
+    width: 60%;
+    height: 600px;
+    margin: 50px auto;
+    /* position: relative; */
+}
+#slider-box img {
+    width: 100%;
+    height: 600px;
+}
+
+.slider-bttn {
+    border: none;
+    outline: none;
+    background: #888;
+    padding: 10px 30px;
+    font-size: 20px;
+    color: #ddd;
+    cursor: pointer;
+}
+
+.slider-bttn:hover{
+    background:#111;
+}
 
 /*Skills.html*/
 
@@ -220,6 +246,8 @@ footer p {
     width: 150px;
     height: auto;
     opacity: 30%;
+    cursor:pointer;
+    margin: 10px auto;
 }
 
 .skills .logo {
