@@ -1,0 +1,103 @@
+/*Skills.html*/
+
+.page-container {
+    position: relative;
+    min-height: 15.7rem;
+} 
+
+.invisible-container{
+    /* height: 25rem; */
+} 
+
+
+.skills {
+    text-align: center;
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.logo-skills {
+    width: 150px;
+    height: auto;
+    opacity: 30%;
+    cursor:pointer;
+    margin: 10px auto;
+}
+
+.skills .logo {
+    margin-left:1rem;
+}
+
+.skills-descriptions .box {
+    width: 70%;
+    text-align: center;
+    padding: 1rem;
+}
+
+.skills-descriptions li {
+    margin-right: 2rem;
+}
+
+.skills-descriptions h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.skills-descriptions p {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+
+#html {
+    display:none;
+}
+
+#css {
+    display:none;
+}
+
+#JavaScript {
+    display:none;
+}
+
+#python {
+    display:none;
+}
+
+#git {
+    display:none;
+}
+
+#node {
+    display:none;
+}
+
+/*MEDIA QUERIES*/
+/* MOBILE */
+@media only screen and (max-width:700px){
+    
+  /*Skills.html*/
+    .skills-descriptions li {
+        margin-right:0;
+        margin-left:-2.5rem;
+    }
+
+    .logo-skills {
+        width: 50px;
+        margin-right: 0.5rem;
+    }
+}
+
+/* TABLET */
+
+@media only screen and (max-width:1024px) and (min-width: 700px) {
+
+}
+
+/*DESKTOP*/
+@media screen and (min-width: 1024px) {
+
+}
