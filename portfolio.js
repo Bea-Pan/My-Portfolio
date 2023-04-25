@@ -148,22 +148,11 @@ nodeButton.addEventListener('click', openNode)
 //Changing the GITHUB icon onmouseover
 
 
+
+
 //function to be called with event listener
 
-let gitHubLogo = document.getElementsByClassName('.github-logo-js');
 
-
-
-function changeLogoGitHub(){
-    gitHubLogo.forEach(function(logo) {
-        logo.src = './media/logos/GitHub-onclick.png';
-      });
-}
-
-
-gitHubLogo.onmouseover = changeLogoGitHub;
-
-/*
 
 
 //Changing the GITHUB icon onmouseover
@@ -196,4 +185,3 @@ function changeBackLinkedIn(){
 linkedinLogo.onmouseover = changeLogoLinkedIn;
 linkedinLogo.onmouseout = changeBackLinkedIn;
 
-*/
