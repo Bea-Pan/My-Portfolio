@@ -197,6 +197,58 @@ footer p {
 }
 /*index.html*/
 
+.about-me{
+    text-align: left !important; 
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+    width: 80%;
+}
+ .about-me img{
+    width: 250px;
+    border: 5px solid transparent;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 1;
+ }
+
+ .about-me p {
+    padding: 0 2rem;
+    font-family: 'Indie Flower', cursive;
+    /* font-family: 'Architects Daughter', cursive;
+    font-family: 'Short Stack', cursive; */
+
+    font-size: 1.5rem;
+ }
+
+.container-index{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding-left: 2rem;
+}
+
+.container-index h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    margin: 0;
+    color: #fffae6;
+}
+
+.container-index h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0;
+    color: #fffae6;
+}
+
+.container-index h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0;
+    color: #fffae6;
+}
+
 #slider {
     width: 60%;
     height: 600px;
@@ -213,7 +265,7 @@ footer p {
 
 .slide {
     position: absolute;
-    top: 150%;
+    bottom: -130%;
     transform: translateY(-50%);
     width: 45px;
     height: 45px;
@@ -227,9 +279,7 @@ footer p {
 }
 
 .slide:hover {
-    
     background-color: #ffa366; 
-    
 }
 
 .right {
