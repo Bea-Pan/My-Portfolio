@@ -222,6 +222,40 @@ footer p {
     background:#111;
 }
 
+.slide {
+    position: absolute;
+    top: 150%;
+    transform: translateY(-50%);
+    width: 45px;
+    height: 45px;
+    border: 2px solid orangered;
+    cursor: pointer;
+}
+
+.slide:hover {
+    background: yellow;
+}
+
+.right {
+    right: 20%;
+}
+
+.slide span {
+    font-size: 35px;
+    color: orangered;
+    line-height: 41px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.fa-angle-left {
+    padding-left: 10px;
+}
+
+.fa-angle-right {
+    padding-left: 18px;
+}
+
 /*Skills.html*/
 
 .page-container {
