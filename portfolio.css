@@ -217,13 +217,19 @@ footer p {
     transform: translateY(-50%);
     width: 45px;
     height: 45px;
-    border: 2px solid orangered;
+    border: 5px solid mediumseagreen;
+    background-color: rgb(210, 245, 210);
     cursor: pointer;
     margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .slide:hover {
-    background: yellow;
+    
+    background-color: #ffa366; 
+    
 }
 
 .right {
@@ -232,18 +238,22 @@ footer p {
 
 .slide span {
     font-size: 35px;
-    color: orangered;
+    color: mediumseagreen;
     line-height: 41px;
     font-weight: 800;
     text-align: center;
 }
 
+.slide:hover{
+    
+}
+
 .fa-angle-left {
-    padding-left: 10px;
+    /* padding-left: 10px; */
 }
 
 .fa-angle-right {
-    padding-left: 18px;
+    /* padding-left: 18px; */
 }
 
 /*Skills.html*/
