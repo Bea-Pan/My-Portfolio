@@ -75,12 +75,11 @@ ul {
 
 .wrapper {
     background: linear-gradient(320deg, #ffa366 30%,  #ff3377, mediumseagreen 75%);
-    
     width: 100%;
     transform: rotate(2deg) skew(2deg);
     margin-top: 3rem;
     position: static;
-    padding-bottom: 3rem;
+    padding-bottom: 4rem;
     padding-top: 3rem;
 }
 

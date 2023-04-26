@@ -40,6 +40,7 @@
     border: 5px solid transparent;
     border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
     border-image-slice: 1;
+    filter: drop-shadow(1px 1px 1px purple);
  }
 
  .about-me p {
@@ -96,6 +97,7 @@
     border: 5px solid transparent;
     border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
     border-image-slice: 1;
+    filter: drop-shadow(1px 1px 1px purple);
 }
 
 .slide {
@@ -104,6 +106,7 @@
     height: 45px;
     border: 5px solid mediumseagreen;
     background-color: rgb(210, 245, 210);
+    filter: drop-shadow(1px 1px 1px black);
     cursor: pointer;
     margin: 5px;
     display: flex;
@@ -157,22 +160,20 @@ footer{
     .about-me img{
         text-align: center;
     }
-    .me{
-        /* margin-left: -1rem; */
-    }
+    
 
     .container-index h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
      
     }
 
     .container-index h2 {
-        font-size: 2rem;
+        font-size: 1.6rem;
         
     }
     
     .container-index h3 {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         
     }
 
