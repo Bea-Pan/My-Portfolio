@@ -46,16 +46,20 @@ nav li {
     color: #fffae6;
     font-weight: 600;
     font-size: 1.5rem;
-
 }
 
-.nav:hover{
+/* .nav:hover{
     font-size: 1.7rem;
     
-}
+} */
 .nav:link {
     text-decoration: none;
 }
+
+.nav:link:hover, .nav:link:active  {
+    text-decoration: underline;
+}
+
 
 ul {
     list-style-type: none;
@@ -216,10 +220,9 @@ footer p {
         font-size: 1.2rem;
     }
 
-    .nav:hover{
-        font-size: 1.4rem;
-        
-    }
+    /* .nav:hover{
+        font-size: 1.4rem; 
+    } */
 
     nav li {
         margin-right: 0.5rem;
