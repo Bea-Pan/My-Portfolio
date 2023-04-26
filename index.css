@@ -13,7 +13,7 @@
     transform:  rotate(2deg) skew(2deg);
 }
 .experience .box {
-    width: 30%;
+    width: 40%;
     text-align: center;
     padding: 1rem;
 }
@@ -47,14 +47,16 @@
  .about-me p {
     padding: 0 2rem;
     font-family: 'Indie Flower', cursive;
-    /* font-family: 'Architects Daughter', cursive;
-    font-family: 'Short Stack', cursive; */
-
     font-size: 1.5rem;
  }
 
-.container-index{
+.me {
     display: flex;
+    flex-direction: column;
+}
+
+.container-index{
+    display: inline-flex;
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
@@ -84,14 +86,13 @@
 
 #slider {
     width: 60%;
-    height: 600px;
+    max-height: 37.5rem;
     margin: 50px auto;
     position: relative;
-    /* position: relative; */
 }
 #slider-box img {
     width: 100%;
-    height: 600px;
+    max-height: 37.5rem;
     border: 5px solid transparent;
     border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
     border-image-slice: 1;
@@ -134,29 +135,68 @@
     text-align: center;
 }
 
-.slide:hover{
-    
-}
-
-.fa-angle-left {
-    /* padding-left: 10px; */
-}
-
-.fa-angle-right {
-    /* padding-left: 18px; */
+footer{
+    margin-top:0;
 }
 
 
 /*MEDIA QUERIES*/
 /* MOBILE */
 @media only screen and (max-width:700px){
+
+    .container-index h1 {
+        font-size: 2.5rem;
+     
+    }
+
+    .container-index h2 {
+        font-size: 2rem;
+        
+
+    }
     
+    .container-index h3 {
+        font-size: 1.6rem;
+        
+    }
+
+    .slide {
+        width: 40px;
+        height: 40px;
+    }
+
 }
 
 /* TABLET */
 
 @media only screen and (max-width:1024px) and (min-width: 700px) {
+    .about-me{
+        width: 100%;
+        align-items: flex-start;
+        
+    }
 
+    .about-me img{
+        margin-top:3.5rem;
+        margin-right:1rem;
+    }
+
+    .experience .box {
+        width: 60%;
+    }
+
+    #slider{
+        max-height:21.875rem;
+    }
+
+    #slider-box img{
+        max-height:21.875rem;
+    }
+
+    .slide {
+        width: 40px;
+        height: 40px;
+    }
 }
 
 /*DESKTOP*/
