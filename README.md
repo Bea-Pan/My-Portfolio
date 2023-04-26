@@ -1,4 +1,4 @@
-# My-Portfolio
+# My-Portfolio :sunflower:
 This website was created as my online CV and portfolio. It is written using HTML, CSS and JavaScript ES6, added in Node.js environment. While completing this project I used Git Versions Control.
 
 
