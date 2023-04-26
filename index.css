@@ -175,6 +175,9 @@ footer{
         margin: auto;
     }
     
+    .container-index {
+        padding-left: 1rem;
+    }
 
     .container-index h1 {
         font-size: 2rem;

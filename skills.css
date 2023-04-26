@@ -24,7 +24,7 @@
     opacity: 30%;
     cursor:pointer;
     margin: 10px auto;
-    filter: drop-shadow(1px 1px 1px purple);
+    filter: drop-shadow(1px 1px 1px black);
 }
 
 .skills .logo {
