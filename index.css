@@ -105,6 +105,7 @@
     border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
     border-image-slice: 1;
     filter: drop-shadow(1px 1px 1px purple);
+    /* object-fit:contain; */
 }
 
 .slide {
@@ -243,6 +244,13 @@ footer{
 }
 
 /*DESKTOP*/
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 2000px) {
+
+}
+/*SUPER WIDE SCREEN*/
+@media only screen and (min-width: 2001px){
+    #slider-box img {
+        object-fit:contain;
+    }
 
 }
