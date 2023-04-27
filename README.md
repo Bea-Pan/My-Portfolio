@@ -1,5 +1,5 @@
 # My-Portfolio :sunflower:
-This website was created as my online CV and portfolio. It is written using HTML, CSS and JavaScript ES6, added in Node.js environment. While completing this project I used Git Versions Control.
+This website was created as my online CV and portfolio. It is written using HTML, CSS and JavaScript ES6 (the latter added in Node.js environment). While completing this project I used Git Versions Control.
 
 
 ## Responsiveness
@@ -9,12 +9,10 @@ The page adapts well to mobile, tablet and desktop devices.
 * I used CSS flexbox for proper alignment of the divs and their children elements
 * I used CSS grid for proper alignment of the section about me on the main page
 * All the links are opened in new tabs
-* Conact buttons are active
-
-The website uses CSS Flex in order to dynamically sort images in the gallery and on main site. It also uses CSS Grid for proper alignment of navbar and contact buttons, which changes dynamically according to screen's size. All of the links are opened in new tabs and contact buttons are active.
+* Contact buttons are active
 
 ## Visuals
-I used JavaScript to make the page look interesting:
+I used JavaScript DOM to make the page look interesting:
 
 * I created a slide show of my certificates with the control buttons for the viewer to go 'next' and 'prev'
 * The information about my skills appears when the users clicks on the respective logo in the skills tab.
