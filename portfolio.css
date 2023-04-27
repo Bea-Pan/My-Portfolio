@@ -100,7 +100,16 @@ ul {
 .container summary {
     font-weight: 800;
     font-size: 1.2rem;
+    display: flex;
+    flex-direction: column-reverse;
+    cursor: pointer;
 }
+
+.container summary span {
+    color: black;
+    margin-top: 1rem;
+}
+
 
 .box {
     margin: 1.5rem;
@@ -162,6 +171,7 @@ details[open] summary{
     border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
     border-image-slice: 1;
 }
+
 
 /*FOOTER*/
 
