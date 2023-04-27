@@ -46,7 +46,8 @@
 
  .about-me p {
     padding: 0 2rem;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Short Stack', cursive;
+    /* font-family: 'Architects Daughter', cursive; */
     font-size: 1.5rem;
  }
 
