@@ -1,5 +1,5 @@
 let slider_img = document.querySelector('.slider-img');
-let images = ['HTML-codecademy.jpg','CSS-codecademy.jpg', 'JavaScript-UDEMY.jpg', 'JavaScript-sololearn.png'];
+let images = ['HTML-codecademy.jpg','CSS-codecademy.jpg', 'JavaScript-UDEMY.jpg', 'JavaScript-sololearn.png', 'jQuery-codecademy.jpg', 'PHP-codecademy.jpg'];
 let i = 0; //current image index
 
 function prev(){
