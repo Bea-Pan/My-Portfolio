@@ -89,6 +89,10 @@
 @media only screen and (max-width:700px){
     
   /*Skills.html*/
+
+    .skills{
+        display: inline-table;
+    }
     .skills-descriptions li {
         margin-right:0;
         margin-left:-2.5rem;
