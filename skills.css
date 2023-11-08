@@ -84,6 +84,10 @@
     display:none;
 }
 
+#bootstrap {
+    display: none;
+}
+
 /*MEDIA QUERIES*/
 /* MOBILE */
 @media only screen and (max-width:700px){
